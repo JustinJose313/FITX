@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .navbar-custom {
+            background: url(./img/2.jpeg) !important;
+        }
+
+        @media screen and (max-width: 775px) {
+            .contact-wrapper {
+                flex-direction: column;
+            }
+
+            .contact-left {
+                width: 100%;
+                height: 50vh;
+                background: url(https://i.stack.imgur.com/1hC8U.jpg);
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                align-items: center;
+            }
+
+            .contact-left .container .row {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .contact-left .container h3 {
+                text-align: center;
+                color: rgba(236, 240, 241, 0.835);
+            }
+
+            .contact-left .container p,
+            .contact-left .container .fa {
+
+                text-align: center;
+                color: #ABB7B7;
+            }
+
+            .contact-right {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+
+            .contact-right form input {
+                width: 300px;
+                margin: 20px 5px;
+            }
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!--Navgar section-->
+    <nav class="navbar navbar-expand navbar-custom">
+        <a class="navbar-brand ml-5" href="#">FITX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02"
+            aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navgar section end-->
+    <section>
+        <div class="contact-section">
+            <div class="contact-wrapper">
+                <div class="contact-left">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h3>Address</h3>
+                                <P>Some random addresss</P>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h3>Lets Talk</h3>
+                                <P>+91 9999888855</P>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h3>General Support</h3>
+                                <P>support@company.coms</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form action="">
+                        <h3>CONTACT US</h3>
+                        <input type="text" class="form-control" placeholder="Full Name">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                        <input type="text" class="form-control" placeholder="Subject">
+                        <input type="text" class="form-control" placeholder="Message">
+                        <a href="">Submit</a>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-wrapper">
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8958.858570522847!2d72.84639599013882!3d19.250332830460042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b11ef2207c59%3A0xdcf76cceeea6804b!2sM.M.Hospital!5e0!3m2!1sen!2sin!4v1563805910555!5m2!1sen!2sin"
+                        width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer footer-animation font-small pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <div class="row">
+
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <h5 class="text-uppercase footer-name">FITX</h5>
+                    <p>Inspires you to be your best.</p>
+
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#!">Programs</a>
+                        </li>
+                        <li>
+                            <a href="#!">Email us</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <h5 class="text-uppercase">Follow us on</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#!">LinkedIn</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+</body>
+
+</html>
